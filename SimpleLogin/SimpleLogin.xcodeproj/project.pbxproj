@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		091308A629CC8B8800D6578F /* FirstTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091308A529CC8B8800D6578F /* FirstTest.swift */; };
 		35373C45289177DA00000297 /* LogInWithProtonButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35373C44289177DA00000297 /* LogInWithProtonButtonView.swift */; };
 		35373C4728917A4900000297 /* ProtonButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35373C4628917A4900000297 /* ProtonButtonStyle.swift */; };
 		353E8273290150D7004C9154 /* DeletedAliasesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8272290150D7004C9154 /* DeletedAliasesView.swift */; };
@@ -235,6 +236,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		091308A529CC8B8800D6578F /* FirstTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTest.swift; sourceTree = "<group>"; };
 		35373C44289177DA00000297 /* LogInWithProtonButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInWithProtonButtonView.swift; sourceTree = "<group>"; };
 		35373C4628917A4900000297 /* ProtonButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtonButtonStyle.swift; sourceTree = "<group>"; };
 		353E8272290150D7004C9154 /* DeletedAliasesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletedAliasesView.swift; sourceTree = "<group>"; };
@@ -522,6 +524,7 @@
 			isa = PBXGroup;
 			children = (
 				C03488AC268A6F2E008D9629 /* Info.plist */,
+				091308A529CC8B8800D6578F /* FirstTest.swift */,
 			);
 			path = SimpleLoginUITests;
 			sourceTree = "<group>";
@@ -909,6 +912,7 @@
 					};
 					C03488A5268A6F2E008D9629 = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1420;
 						TestTargetID = C0348889268A6F29008D9629;
 					};
 					C03E200927A1F436000D82F6 = {
@@ -1166,6 +1170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				091308A629CC8B8800D6578F /* FirstTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1514,6 +1519,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 975H7B86B7;
 				INFOPLIST_FILE = SimpleLoginUITests/Info.plist;
@@ -1524,6 +1530,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.simplelogin.SimpleLoginUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SimpleLogin;
@@ -1534,6 +1541,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 975H7B86B7;
 				INFOPLIST_FILE = SimpleLoginUITests/Info.plist;
